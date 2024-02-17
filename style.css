@@ -11,6 +11,7 @@ body{
     width: 1320px;
     height: 600px;
     margin: auto;
+
 }
 .big-text{
     font-size: 88px;
@@ -59,7 +60,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 100px;
 }
 .wish{
     font-size: 40px;
