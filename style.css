@@ -59,7 +59,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(100%);
+    
 }
 .wish{
     font-size: 40px;
