@@ -1,11 +1,53 @@
 body{
     margin: 0;
 
-   
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Courier New', Courier;
+
 
     
 }
+/* common things among all the sections */
+.all-section{
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+}
+.big-text{
+    font-size: 88px;
+    
+    margin: 0;
+}
+.second-big-text{
+  font-size: 55px;
+  margin: 0;
+  
+}
+.btns{
+    background-color: #FF0000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    
+    }
+ .all-titles{
+        color: #FF0000; 
+        font-size: 27px;
+        font-weight: bold; 
+        margin: 0; 
+       }
+.color{
+        color: #FF0000;
+    }
+    
+
+ .all-texts{
+    color: #535050;
+ }   
+
+    /* banner section */
+
 .banner-section{
 
     background-image: url(./images/Banner\ Image.png);
@@ -17,19 +59,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    filter: grayscale(100%);
 }
-.all-section{
-    width: 1320px;
-    height: 600px;
-    margin: auto;
+.wish{
+    font-size: 40px;
 }
 
-.big-text{
-    font-size: 88px;
-    font-weight: 600;
-}
 
+
+
+
+/* 65% off section */
 
 .discount-section{
     text-align: center;
@@ -42,24 +82,12 @@ body{
     color: #FF0000;
     margin: 20px;
 }
-.join-btn{
-background-color: #FF0000;
-border: none;
-padding: 15px 30px;
-border-radius: 5px;
-color: white;
-font-weight: bold;
-}
 
-.deals-title{
- color: #FF0000; 
- font-size: 24px; 
- margin: 0; 
-}
-.all{
-    font-size: 50px;
-    margin-top: 10px;
-}
+
+
+
+
+/* welcome msg section */
 .welcome-section {
     background-image: url(./images/Vectorrr.png);
     width: 1320px;
@@ -79,13 +107,12 @@ font-weight: bold;
   
 }
 .welcome-text{
-    color: #f5f2f2cf;
+    color: #b1b1b1;
     
 }
 
-.color{
-    color: #FF0000;
-}
+
+
 .newpark{
     background: #f9dcdc;
     width: 1320px;
@@ -106,7 +133,7 @@ font-weight: bold;
 
 
 
-
+/* offer section */
 .coming-soon{
     width: 1320px;
     display: flex;
@@ -114,6 +141,7 @@ font-weight: bold;
     margin: auto;
    justify-content: center;
    justify-content: space-around;
+   margin-bottom: 100px;
 }
 .round-img{
     padding: 30px;
@@ -133,6 +161,10 @@ font-weight: bold;
 
     
 }
+
+
+/* gift item section css */
+
 .item-section{
     width: 1320px;
     margin: auto;
@@ -152,6 +184,8 @@ font-weight: bold;
     transform: scale(1.2);
     transition: transform 1s;
 }
+
+/* subscribe and input field section */
 .subscribe{
     display: flex;
     justify-content: center;
@@ -159,6 +193,8 @@ font-weight: bold;
     text-align: center;
     background: #f5d7d7;
     border-radius: 20px;
+    margin-top: 100px;
+
 }
 .subscribe input{
     text-decoration: none;
@@ -168,19 +204,17 @@ font-weight: bold;
     
 }
 .mail{
-    width: 450px;
-    height: 40px;
-    
-    margin: 0;
+     width: 400px;
+     height: 35px;
+     margin: 0;
      border-top-left-radius: 30px;
      border-bottom-left-radius: 30px;
      padding: 10px;
     
 }
 #subs{
-    width: 120px;
-    height: 60px;
-
+    width: 150px;
+    height: 55px;
     margin: 0;
     color: white;
     background: #FF0000;
@@ -188,6 +222,10 @@ font-weight: bold;
     border-bottom-right-radius: 30px;
 
 }
+.sub-btn{
+    font-size: large;
+}
+/* footer section css */
 .footer{
     background: #000;
     color: white;
